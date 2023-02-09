@@ -2,6 +2,7 @@ package com.example.tasca2
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -28,12 +29,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun augment(view : View){
-        tv.textSize = tv.textSize++
+        tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, tv.textSize + 10)
     }
 
     fun decrease(view : View){
-        tv.textSize = tv.textSize--
-        print("D")
+        tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, tv.textSize - 10)
     }
 
     fun hide(view : View){
