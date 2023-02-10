@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tasca2</string>
+    <string name="app_name">Tasca2 by Joel Ferrer</string>
     <string name="add_btn">Add</string>
     <string name="substract_btn">Subtract</string>
     <string name="augment_btn">Augment</string>
